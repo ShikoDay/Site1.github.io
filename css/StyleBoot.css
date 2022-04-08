@@ -1,0 +1,46 @@
+* {
+}
+
+.conteainer {
+    margin: 0;
+    min-height: 100vh;
+    min-width:970px;
+    width: 970px;
+    margin: 0 auto;
+
+}
+
+.main_logo {
+    width: 360px;
+    height: 280px;
+}
+
+.main_text {
+    width: 610px;
+    height: 280px;
+}
+
+.text_info {
+    font-size: 14px;
+}
+
+.header {
+    display: flex;
+    background-color: forestgreen;
+    margin: 0 0 0 0;
+}
+
+@media (min-width: 768px) {
+    .header-logo {
+        font-family: 'Kaushan Script', cursive;
+        margin: 0;
+        font-size: 12px;
+    }
+}
+
+.d1 {
+    border-radius: 5px;
+    margin-top: 2px;
+    border: 2px solid #959494;
+    text-align: center;
+}
